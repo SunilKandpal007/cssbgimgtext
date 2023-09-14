@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 80vw;
+    height: 25vw;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 10px solid rgb(11, 11, 114);
+    border-right: 10px solid rgb(192, 20, 20);
+    border-bottom: 10px solid rgb(11, 11, 114);
+    border-left: 10px solid rgb(6, 116, 6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+/* background image properties */
+    background: url(christmas.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: text;
+    background-color: grey;
+/* CSS property to add an image in a text*/
+    -webkit-background-clip: text;
+    color: transparent;
+
+    margin-top: 0;
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: verdana;
+    letter-spacing: 0.5rem;
+}
+article{
+    width: 75vw;
+    height: 20vw;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    text-align:center;
+
+    border-top: 10px solid green;
+    border-right: 10px solid red;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow;
+
+    border-top-left-radius: 5px;
+    font-family: georgia;
+}
+h4{
+    margin: 0 auto;
+    font-size: 3vw;
+    padding: 0;
+}
+ol{
+    font-size: 2vw;
+    color: brown;
+    margin:0;
+    margin-left: 1rem;
+    padding: 0;
+}
+li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.4rem;
+    margin-right: auto;
+    padding: 2px;
+}
+span{
+    color: black;
+    font-family: georgia;
+}
